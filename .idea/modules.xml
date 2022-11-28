@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DictionaryCreator.iml" filepath="$PROJECT_DIR$/.idea/DictionaryCreator.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/Manuals/.idea/Manuals.iml" filepath="$USER_HOME$/Documents/Manuals/.idea/Manuals.iml" />
     </modules>
   </component>
 </project>

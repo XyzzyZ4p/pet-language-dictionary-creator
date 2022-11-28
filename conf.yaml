@@ -1,0 +1,6 @@
+paths:
+  data: "{root}/data"
+  dictionary: "{data}/dictionaries/words.csv"
+  serialized: "{data}/serialized/data.pickle"
+  books: "{home}/Documents/Books/English/plain"
+  cards: "{data}/cards"
