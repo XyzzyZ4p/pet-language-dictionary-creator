@@ -21,7 +21,13 @@ class Table:
     @classmethod
     def write(cls, path: Path, headers: list, data: List[Dict]) -> None:
         with open(path, 'w', newline='') as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=headers)
+            writer = csv.DictWriter(
+                csvfile,
+                fieldnames=headers,
+                delimiter=',',
+                quotechar='"',
+                quoting=csv.QUOTE_MINIMAL
+            )
             writer.writeheader()
 
             for obj in data:
