@@ -14,7 +14,7 @@ tqdm = "^4.64.1"
 
 
 [tool.poetry.group.dev.dependencies]
-ipython = "^8.6.0"
+ipython = "^8.10.0"
 bandit = "^1.7.4"
 mypy = "^0.991"
 pip-review = "^1.2.0"
